@@ -1,0 +1,101 @@
+*{
+    max-height: 1080px;
+}
+
+body {
+    background-color: rgb(195, 195, 233);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(169, 240, 245);
+    text-align: center;
+}
+
+section {
+    background-color: rgb(255, 254, 254);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+div#test {
+    color: rgb(169, 240, 245);
+    ;
+}
+
+img{
+    margin-bottom: 30px;
+    border-radius: 300px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+}
+
+.h2class {
+    text-align: center;
+    color: rgb(169, 240, 245);
+}
+
+li {
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(169, 240, 245);
+}
+
+footer {
+    color: rgb(169, 240, 245);
+    text-align: center;
+    font-style: italic;
+}
+
+#formsection{
+    text-align: justify;
+}
+
+#labelmensage{
+    width: 250px;
+    height: 100px;
+    margin-left: 125px;
+    margin-top: -18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+.labeltext{
+    margin-left: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: justify;
+}
+
+#button{
+    margin-left: 220px;
+    margin-top: 30px;
+    height: 30px;
+    width: 60px;
+}
+
+#rotatingayylmao{
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    }
+} 
