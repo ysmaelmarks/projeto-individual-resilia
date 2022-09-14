@@ -3,27 +3,39 @@
 }
 
 body {
-    background-color: rgb(195, 195, 233);
+    background-color: rgb(159, 189, 245);
     font: normal 15pt Arial;
 }
 
 header {
-    color: rgb(169, 240, 245);
+    color: rgba(169, 240, 245, 0.699);
     text-align: center;
 }
-
+#links{
+    text-align:center;
+    width: 500px;
+    height: 70px;
+}
+.linktest{
+    margin-left: -60px;
+}
+.linktest2{
+    margin-left: 100px;
+}
 section {
-    background-color: rgb(255, 254, 254);
+    background-color: rgba(255, 255, 255, 0.3);
+    line-height: 1;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
     padding: 15px;
     width: 500px;
     margin: auto;
-    text-align: center;
 }
 
 div#test {
-    color: rgb(169, 240, 245);
+    color: rgba(7, 93, 99, 0.89);
     ;
 }
 
@@ -35,21 +47,23 @@ img{
 
 .h2class {
     text-align: center;
-    color: rgb(169, 240, 245);
+    color: rgba(7, 93, 99, 0.89);
 }
 
-li {
-    text-align: justify;
-    color: rgb(0, 0, 0);
+#ptest{
+    text-align: center;
+    color: rgba(11, 120, 128, 0.89);
+    font-size: 10px;
+    margin-top: -30px;
 }
 
 a{
     text-decoration: none;
-    color: rgb(169, 240, 245);
+    color: rgba(7, 93, 99, 0.89);
 }
 
 footer {
-    color: rgb(169, 240, 245);
+    color: rgba(7, 93, 99, 0.89);
     text-align: center;
     font-style: italic;
 }
@@ -62,10 +76,9 @@ footer {
     width: 250px;
     height: 100px;
     margin-left: 125px;
-    margin-top: -18px;
+    margin-top: 20px;
     border: 2px solid #ccc;
     border-radius: 4px;
-    text-align: justify;
 }
 
 .labeltext{
@@ -82,7 +95,8 @@ footer {
     width: 60px;
 }
 
-#rotatingayylmao{
+
+/* #rotatingayylmao{
     -webkit-animation:spin 3s linear infinite;
     -moz-animation:spin 3s linear infinite;
     animation:spin 3s linear infinite;
@@ -98,4 +112,4 @@ footer {
         -webkit-transform: rotate(360deg); 
         transform:rotate(360deg); 
     }
-} 
+} */
