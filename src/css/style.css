@@ -1,7 +1,3 @@
-*{
-    max-height: 1080px;
-}
-
 body {
     background-color: rgb(159, 189, 245);
     font: normal 15pt Arial;
@@ -21,6 +17,11 @@ header {
 }
 .linktest2{
     margin-left: 100px;
+}
+.centerayy{
+    width: 80px;
+    height: 20px;
+    margin: auto;
 }
 section {
     background-color: rgba(255, 255, 255, 0.3);
@@ -92,14 +93,15 @@ footer {
     margin-left: 220px;
     margin-top: 30px;
     height: 30px;
-    width: 60px;
+    width: 80px;
 }
 
 
-/* #rotatingayylmao{
+#rotatingayylmao{
     -webkit-animation:spin 3s linear infinite;
     -moz-animation:spin 3s linear infinite;
     animation:spin 3s linear infinite;
+    
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
@@ -112,4 +114,4 @@ footer {
         -webkit-transform: rotate(360deg); 
         transform:rotate(360deg); 
     }
-} */
+}
