@@ -1,5 +1,9 @@
+* {
+    max-height: 1080px;
+}
+
 body {
-    background-color: rgb(159, 189, 245);
+    background-color: rgb(143, 180, 248);
     font: normal 15pt Arial;
 }
 
@@ -7,22 +11,7 @@ header {
     color: rgba(169, 240, 245, 0.699);
     text-align: center;
 }
-#links{
-    text-align:center;
-    width: 500px;
-    height: 70px;
-}
-.linktest{
-    margin-left: -60px;
-}
-.linktest2{
-    margin-left: 100px;
-}
-.centerayy{
-    width: 80px;
-    height: 20px;
-    margin: auto;
-}
+
 section {
     background-color: rgba(255, 255, 255, 0.3);
     line-height: 1;
@@ -35,30 +24,14 @@ section {
     margin: auto;
 }
 
-div#test {
-    color: rgba(7, 93, 99, 0.89);
-    ;
-}
-
-img{
+img {
     margin-bottom: 30px;
     border-radius: 300px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
 }
 
-.h2class {
-    text-align: center;
-    color: rgba(7, 93, 99, 0.89);
-}
 
-#ptest{
-    text-align: center;
-    color: rgba(11, 120, 128, 0.89);
-    font-size: 10px;
-    margin-top: -30px;
-}
-
-a{
+a {
     text-decoration: none;
     color: rgba(7, 93, 99, 0.89);
 }
@@ -66,14 +39,28 @@ a{
 footer {
     color: rgba(7, 93, 99, 0.89);
     text-align: center;
-    font-style: italic;
+    font-size: medium;
 }
 
-#formsection{
+
+#links {
+    text-align: center;
+    width: 500px;
+    height: 70px;
+}
+
+#ptest {
+    text-align: center;
+    color: rgba(11, 120, 128, 0.89);
+    font-size: 10px;
+    margin-top: -30px;
+}
+
+#formsection {
     text-align: justify;
 }
 
-#labelmensage{
+#labelmensage {
     width: 250px;
     height: 100px;
     margin-left: 125px;
@@ -82,36 +69,89 @@ footer {
     border-radius: 4px;
 }
 
-.labeltext{
+#button {
+    margin-left: 220px;
+    margin-top: 30px;
+    height: 30px;
+    width: 60px;
+}
+
+.linktest {
+    margin-left: -60px;
+}
+
+.linktest2 {
+    margin-left: 100px;
+}
+
+.h2class {
+    text-align: center;
+    color: rgba(7, 93, 99, 0.89);
+}
+
+#sobremim {
+    text-align: center;
+    color: rgba(7, 93, 99, 0.89);
+}
+#hobbies{
+    text-align: center;
+    color: rgba(7, 93, 99, 0.89);
+}
+#contato{
+    text-align: center;
+    color: rgba(7, 93, 99, 0.89);
+}
+
+#test {
+    color: rgba(7, 93, 99, 0.89);
+    ;
+}
+#secao{
+    font-size: medium;
+    display: flex;
+    justify-content: space-around;
+}
+
+.labeltext {
     margin-left: 5px;
     border: 2px solid #ccc;
     border-radius: 4px;
     text-align: justify;
 }
 
-#button{
-    margin-left: 220px;
-    margin-top: 30px;
-    height: 30px;
+.centerayy {
     width: 80px;
+    height: 20px;
+    margin: auto;
 }
 
+.sobre{
+    text-align: justify;
+    padding-left: 30px;
+}
 
-#rotatingayylmao{
-    -webkit-animation:spin 3s linear infinite;
-    -moz-animation:spin 3s linear infinite;
-    animation:spin 3s linear infinite;
-    
+#rotatingayylmao {
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+
 }
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
 }
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
